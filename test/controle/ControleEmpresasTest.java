@@ -5,8 +5,7 @@
  */
 package controle;
 
-import controle.ControleEmpresas;
-import controle.ControleEmpresas;
+
 import entidade.Empresa;
 import org.junit.Test;
 import static org.junit.Assert.*;

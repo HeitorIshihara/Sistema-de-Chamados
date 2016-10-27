@@ -5,7 +5,7 @@
  */
 package controle;
 
-import controle.ControleTecnicos;
+
 import entidade.Tecnico;
 import org.junit.Test;
 import static org.junit.Assert.*;
