@@ -168,7 +168,7 @@ public class ControleChamadosTest {
         Tecnico tecnico = new Tecnico("Pedro",46612321);
         Empresa empresa = new Empresa(1,"Twitter");
         ClienteEmpresa clienteEmpresa = new ClienteEmpresa(123, empresa, 12345678912L, "Heitor", 59205920);
-        Chamado cd = new Chamado("Lentidão ao navegar","O SO está muito lento e travando muito",3,tecnico,clienteEmpresa,""+SistemaOperacional.LINUX,"Ubuntu","operação",10.5);
+        Chamado cd = new Chamado(12,"Lentidão ao navegar","O SO está muito lento e travando muito",3,tecnico,clienteEmpresa,""+SistemaOperacional.LINUX,"Ubuntu",""+TipoConexao.CaboModen,"123.231.0.1");
         
         RegistroChamado r = new RegistroChamado("Problema com Servidor", cd, tecnico);
         RegistroChamado r2 = cc.inserirRegistroChamado(r.getAssunto(), r.getChamado(), r.getTecnico());
