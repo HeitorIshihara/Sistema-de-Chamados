@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package controle;
+package controleTest;
 
+import controle.ControleClientes;
 import controle.ControleClientes;
 import entidade.ClienteEmpresa;
 import entidade.Empresa;
